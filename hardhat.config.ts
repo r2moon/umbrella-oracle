@@ -5,7 +5,7 @@ export default {
   networks: {
     hardhat: {
       forking: {
-        url: process.env.KOVAN_RPC,
+        url: process.env.ROPSTEN_RPC,
       },
     },
   },
